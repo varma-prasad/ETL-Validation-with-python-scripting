@@ -1,0 +1,46 @@
+*********** Test case1: Count of Records in source & Target***********
+
+(Source): (Rows*Columns):
+	 (9, 3)
+(Target): (Rows*Columns):
+	 (6, 3)
+
+*********** Test case2: Check for Duplicates in source & Target***********
+
+(Source Duplicates):
+        EMP_NAME      DESIGNATION  E_DEPT_NO
+EMP_ID                                     
+1        Robert  Project Manager         30
+6        Cooper        Executive         20 
+
+(Target Duplicates):
+ Empty DataFrame
+Columns: [EMP_NAME, DESIGNATION, DEPARTMENT_NAME]
+Index: []
+
+*********** Test case3: Check for Null values in source & Target***********
+
+(Source):
+        EMP_NAME DESIGNATION  E_DEPT_NO
+EMP_ID                                
+3        Prakas        None         30 
+
+(Target):
+ Empty DataFrame
+Columns: [EMP_NAME, DESIGNATION, DEPARTMENT_NAME]
+Index: []
+
+*********** Test case4: Validate Filter Transformation ***********
+
+(Source): Departments ['Purchasing' 'Administration' 'Marketing' 'Human Resources']
+(Target): Departments ['Purchasing' 'Administra' 'Marketing']
+
+*********** Test case5: Check for Truncation/ Data Mismatch from source to Target***********
+
+Comparision from Source to Target:
+        DESIGNATION       DEPARTMENT_NAME            
+              self other            self       other
+EMP_ID                                              
+2              NaN   NaN  Administration  Administra
+3             None  NILL             NaN         NaN
+5              NaN   NaN  Administration  Administra

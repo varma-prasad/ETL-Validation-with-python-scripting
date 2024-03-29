@@ -1,0 +1,156 @@
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6014 : Initializing session [s_M_oracle_Postgres] at [Thu Mar 28 20:24:12 2024].
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6683 : Repository Name: [rep]
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6684 : Server Name: [is]
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6686 : Folder: [ETL QA Labs]
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6685 : Workflow: [wf_M_oracle_Postgres] Run Instance Name: [] Run Id: [354]
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6101 : Mapping name: M_oracle_Postgres.
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6703 : Session [s_M_oracle_Postgres] is run by 64-bit Integration Service  [node01], version [10.2.0], build [0807].
+2024-03-28 20:24:12 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2024-03-28 20:24:12 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24058 : Running Partition Group [1].
+2024-03-28 20:24:12 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2024-03-28 20:24:12 : INFO : (13932 | MONITOR) : (IS | is) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2024-03-28 20:24:12 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2024-03-28 20:24:12 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24003 : Initializing session run.
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : CMN_1569 : Server Mode: [ASCII]
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : TM_6151 : The session sort order is [Binary].
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : TM_6156 : Using low precision processing.
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : TM_6307 : DTM error log disabled. 
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : TE_7022 : TShmWriter: Initialized
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : DBG_21075 : Connecting to database [xepdb1], user [hr]
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : DBG_21693 : SRTTRANS: Cache size for partition [1] = [308971408]
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : SORT_40419 : For Transformation [SRTTRANS], memory used is [308971408] bytes and row size is 60 bytes.
+2024-03-28 20:24:12 : INFO : (13932 | MAPPING) : (IS | is) : node01 : TM_6007 : DTM initialized successfully for session [s_M_oracle_Postgres]
+2024-03-28 20:24:12 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2024-03-28 20:24:12 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Thu Mar 28 20:24:12 2024)
+2024-03-28 20:24:12 : INFO : (13932 | PRE-SESS) : (IS | is) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2024-03-28 20:24:12 : INFO : (13932 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [t_employee]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-28 20:24:12 : INFO : (13932 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [t_employee] [instance id:7]
+2024-03-28 20:24:12 : INFO : (13932 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [t_employee] [instance id:7] determined successfully
+2024-03-28 20:24:12 : INFO : (13932 | PRE-SESS) : (IS | is) : node01 : CMN_1021 : Database driver event...
+CMN_1021 [ODBC Event Using array fetches.
+ODBC Event Using Array Inserts. connect string = [Postgre_Free]. userid = [postgres]]
+
+2024-03-28 20:24:12 : INFO : (13932 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [t_employee]. : (Thu Mar 28 20:24:12 2024)
+2024-03-28 20:24:12 : INFO : (13932 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [t_employee] succeeded. : (Thu Mar 28 20:24:12 2024)
+2024-03-28 20:24:13 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : PETL_24006 : Starting data movement.
+2024-03-28 20:24:13 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TT_11183 : Enabled using [0 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [1] lookup caches; [1] on-demand only).
+2024-03-28 20:24:13 : INFO : (13932 | MAPPING) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 24000000 bytes and Block size is 65536 bytes.
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1) : (IS | is) : node01 : PETL_24091 : Thread [LKPDP_1] has the ID [5].
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1) : (IS | is) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS]: Default sql to create lookup cache: SELECT DEPARTMENT_NAME,DEPARTMENT_ID FROM DEPARTMENTS ORDER BY DEPARTMENT_ID
+
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1) : (IS | is) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS] from [38621426] to [38623200].
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1) : (IS | is) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS] from [77242852] to [77250560].
+2024-03-28 20:24:13 : INFO : (13932 | READER_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [6].
+2024-03-28 20:24:13 : INFO : (13932 | READER_1_1_1) : (IS | is) : node01 : DBG_21438 : Reader: Source is [xepdb1], user [hr]
+2024-03-28 20:24:13 : INFO : (13932 | READER_1_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-28 20:24:13 : INFO : (13932 | TRANSF_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [7].
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [8].
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8148 : Writer: Target is database [Postgre_Free], user [postgres], bulk mode [N/A]
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : CMN_1021 : Database driver event...
+CMN_1021 [ODBC Event Using array fetches.
+ODBC Event Using Array Inserts. connect string = [Postgre_Free]. userid = [postgres]]
+
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table t_employee :SQL INSERT statement:
+INSERT INTO t_employee(emp_id,emp_name,designation,department_name)  VALUES ( ?, ?, ?, ?) 
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table t_employee :SQL UPDATE statement:
+UPDATE t_employee SET emp_name = ?, designation = ?, department_name = ? WHERE emp_id = ?
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table t_employee :SQL DELETE statement:
+DELETE FROM t_employee WHERE emp_id = ?
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [t_employee]
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8003 : Writer initialization complete.
+2024-03-28 20:24:13 : INFO : (13932 | READER_1_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8005 : Writer run started.
+2024-03-28 20:24:13 : INFO : (13932 | READER_1_1_1) : (IS | is) : node01 : RR_4010 : SQ instance [SQ_EMP] SQL Query [SELECT EMP.EMP_ID, EMP.EMP_NAME, EMP.DESIGNATION, EMP.E_DEPT_NO FROM EMP]
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Thu Mar 28 20:24:13 2024
+
+Target tables:
+
+     t_employee
+
+
+2024-03-28 20:24:13 : INFO : (13932 | READER_1_1_1) : (IS | is) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | READER_1_1_1) : (IS | is) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | READER_1_1_1) : (IS | is) : node01 : BLKR_16019 : Read [9] rows, read [0] error rows for source table [EMP] instance name [EMP]
+2024-03-28 20:24:13 : INFO : (13932 | READER_1_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:READER_1_1) : (IS | is) : node01 : PETL_24091 : Thread [LKPDP_1:READER_1_1] has the ID [9].
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:READER_1_1) : (IS | is) : node01 : DBG_21438 : Reader: Source is [xepdb1], user [hr]
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:READER_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : PETL_24091 : Thread [LKPDP_1:TRANSF_1_1] has the ID [10].
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:READER_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:READER_1_1) : (IS | is) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:READER_1_1) : (IS | is) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:READER_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21682 : Lookup table row count : 27
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21297 : Lookup cache row count : 27
+
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : CMN_1671 : Created new cache files PMLKUP97_4_0_354W64.[dat/idx] in directory C:\Informatica\10.2.0\server\infa_shared\Cache for Lookup [LKPTRANS].
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21641 : LKPTRANS: Index cache size = [38623200], Data cache size = [77250560]
+2024-03-28 20:24:13 : INFO : (13932 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS{{DSQ}}]. Total errors [0] 
+2024-03-28 20:24:13 : INFO : (13932 | TRANSF_1_1_1) : (IS | is) : node01 : SORT_40420 : SORT_40420 Start of input for Transformation [SRTTRANS]. : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | TRANSF_1_1_1) : (IS | is) : node01 : SORT_40421 : SORT_40421 End of input for Transformation [SRTTRANS]. : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | TRANSF_1_1_1) : (IS | is) : node01 : SORT_40422 : SORT_40422 End of output from Sorter Transformation [SRTTRANS]. Processed 8 rows (480 input bytes; 0 temp I/O bytes). : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | TRANSF_1_1_1) : (IS | is) : node01 : SORT_40423 : SORT_40423 End of sort for Sorter Transformation [SRTTRANS]. : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_EMP]. Total errors [0] 
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [t_employee] at: Thu Mar 28 20:24:13 2024
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [t_employee] at: Thu Mar 28 20:24:13 2024
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8141 : 
+Commit on end-of-data  Thu Mar 28 20:24:13 2024
+===================================================
+
+WRT_8036 Target: t_employee (Instance Name: [t_employee])
+WRT_8038 Inserted rows - Requested: 6          Applied: 6          Rejected: 0          Affected: 6         
+
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8035 : Load complete time: Thu Mar 28 20:24:13 2024
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: t_employee (Instance Name: [t_employee])
+WRT_8038 Inserted rows - Requested: 6          Applied: 6          Rejected: 0          Affected: 6         
+
+
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2024-03-28 20:24:13 : INFO : (13932 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8006 : Writer run completed.
+2024-03-28 20:24:13 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_EMP] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_EMP] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [t_employee] has completed. The total run time was insufficient for any meaningful statistics.
+
+2024-03-28 20:24:13 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | POST-SESS) : (IS | is) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [11].
+2024-03-28 20:24:13 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Thu Mar 28 20:24:13 2024)
+2024-03-28 20:24:13 : INFO : (13932 | MAPPING) : (IS | is) : node01 : TE_7216 : Deleting cache files [PMLKUP97_4_0_354W64] for transformation [LKPTRANS].
+2024-03-28 20:24:13 : INFO : (13932 | MAPPING) : (IS | is) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2024-03-28 20:24:14 : INFO : (13932 | MANAGER) : (IS | is) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2024-03-28 20:24:14 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : PETL_24012 : Session run completed successfully.
+2024-03-28 20:24:14 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2024-03-28 20:24:14 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6252 : Source Load Summary.
+2024-03-28 20:24:14 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_EMP] (Instance Name: [SQ_EMP])
+	 Output Rows [9], Affected Rows [9], Applied Rows [9], Rejected Rows [0]
+2024-03-28 20:24:14 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6253 : Target Load Summary.
+2024-03-28 20:24:14 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [t_employee] (Instance Name: [t_employee])
+	 Output Rows [6], Affected Rows [6], Applied Rows [6], Rejected Rows [0]
+2024-03-28 20:24:14 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6023 : 
+===================================================
+
+2024-03-28 20:24:14 : INFO : (13932 | DIRECTOR) : (IS | is) : node01 : TM_6020 : Session [s_M_oracle_Postgres] completed at [Thu Mar 28 20:24:14 2024].
